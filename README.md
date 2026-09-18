@@ -48,6 +48,9 @@ Clientes que pagam por Electronic check cancelam mais mesmo controlando por tipo
 
 Foi treinado um modelo de Regressão Logística capaz de identificar clientes em risco com AUC ROC de 0,84, capturando 79% dos casos reais de churn (recall), contra 56% de um modelo sem ajuste de peso de classe. Na interpretação dos coeficientes, identificamos multicolinearidade significativa entre `monthly_charges`, `total_charges` e as colunas de serviços contratados (VIF acima de 800 na variável mais problemática). Essas variáveis foram removidas em uma segunda versão do modelo, dedicada à interpretação, sem perda relevante de performance (AUC ROC 0,839). Os coeficientes dessa versão confirmam, de forma independente, os mesmos quatro achados acima: contrato e tenure como maiores redutores de risco, fibra óptica e Electronic check como maiores fatores de risco.
 
+![Curva ROC](images/roc_curve.png)
+
+
 ## Recomendações Práticas
 
 1. **Concentrar esforço de retenção no primeiro ano de contrato**, sobretudo entre clientes de contrato mensal, com ações como desconto por migração para contrato anual/bienal, contato proativo e onboarding mais forte nos primeiros meses.
