@@ -7,7 +7,7 @@ Análise exploratória, testes estatísticos e modelo preditivo para entender po
 Uma empresa de telecomunicações quer reduzir a perda de clientes (churn) e precisa responder duas perguntas:
 
 1. **Diagnóstica:** por que os clientes estão cancelando, e qual o impacto financeiro disso?
-2. **Preditiva:** dá para identificar, hoje, quais clientes ativos têm alto risco de cancelar, antes que aconteça?
+2. **Preditiva:** É possível identificar, hoje, quais clientes ativos têm alto risco de cancelar, antes que aconteça?
 
 A primeira pergunta orienta mudanças de política (ex. estrutura de contratos, investimento em suporte). A segunda gera uma lista priorizada de clientes para ação imediata da equipe de retenção.
 
