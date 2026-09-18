@@ -61,7 +61,7 @@ Foi treinado um modelo de Regressão Logística capaz de identificar clientes em
 ## Como Reproduzir
 
 ```bash
-git clone <link-do-repositorio>
+git clone <https://github.com/judonato/churn-telecom>
 cd churn-telecom
 python3 -m venv venv
 source venv/bin/activate
